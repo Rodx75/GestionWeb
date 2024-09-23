@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>NutriFisiMed - Historial Fisioterapia</title>
+    <title>NutriFisiMed - Salud y bienestar</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Google Web Fonts -->
+    <!-- Favicon iconos -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fuentes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
-
-    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Librerias y Estilos -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Topbar Start -->
+    <!-- Topbar in -->
     <div class="container-fluid bg-light pt-3 d-none d-lg-block">
         <div class="container">
             <div class="row">
@@ -29,19 +34,29 @@
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-primary px-3" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="text-primary px-3" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="text-primary px-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a class="text-primary px-3" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="text-primary pl-3" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-primary pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+    <!-- Topbar fin -->
 
-    <!-- Navbar Start -->
+    <!-- Navbar in -->
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
@@ -62,18 +77,19 @@
                                 <a href="Nutricion.html" class="dropdown-item">Nutricion</a>
                                 <a href="Fisioterapia.html" class="dropdown-item">Fisioterapia</a>
                                 <a href="Medicina.html" class="dropdown-item">Medicina</a>
-                                <a href="testimonial.html" class="dropdown-item">Comentarios</a>
+                                <a href="Coments.html" class="dropdown-item">Comentarios</a>
                             </div>
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contactanos</a>
+                        <a href="Login.html" class="nav-item nav-link">Log In</a>
                     </div>
                 </div>
             </nav>
         </div>
     </div>
-    <!-- Navbar End -->
+    <!-- Navbar fin -->
 
-    <!-- Header Start -->
+    <!-- Header in -->
     <div class="container-fluid page-header">
         <div class="container">
             <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 500px">
@@ -99,64 +115,62 @@
             </div>
         </div>
     </div>
-    <!-- Header End -->
+    <!-- Header fin -->
 
-    <!-- Tabla -->
+    <!-- Tabla centrada -->
+<div class="table-container">
     <div class="u-expanded-width u-table u-table-responsive u-table-1">
-        <table class="u-table-entity">
-            <!-- Contenido de la tabla -->
-            <colgroup>
-                <col width="19.5%">
-                <col width="20.5%">
-                <col width="20%">
-                <col width="20%">
-                <col width="20%">
-              </colgroup>
-              <thead class="u-palette-4-base u-table-header u-table-header-1">
-                <tr style="height: 56px;">
-                  <th class="u-border-1 u-border-palette-4-base u-table-cell">Fecha</th>
-                  <th class="u-border-1 u-border-palette-4-base u-table-cell">Tratamiento&nbsp;</th>
-                  <th class="u-border-1 u-border-palette-4-base u-table-cell">&nbsp;Avances</th>
-                  <th class="u-border-1 u-border-palette-4-base u-table-cell">Observaciones&nbsp;&nbsp;</th>
-                  <th class="u-border-1 u-border-palette-4-base u-table-cell">Seciones&nbsp;</th>
-                </tr>
-              </thead>
-              <tbody class="u-table-body">
-                <tr style="height: 115px;">
-                  <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-6">Row 1</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell">Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell">Descripcion</td>
-                </tr>
-                <tr style="height: 117px;">
-                  <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-11">Row 2</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell">Descripcion</td>
-                </tr>
-                <tr style="height: 117px;">
-                  <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-16">Row 3</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell">Descripcion</td>
-                </tr>
-                <tr style="height: 117px;">
-                  <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-21">Row 4</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell">Description</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell"> Descripcion</td>
-                  <td class="u-border-1 u-border-grey-30 u-table-cell">Descripcion</td>
-                </tr>
-              </tbody>
-            
-        </table>
+      <table class="u-table-entity">
+        <!-- Contenido de la tabla -->
+        <colgroup>
+          <col width="19.5%">
+          <col width="20.5%">
+          <col width="20%">
+          <col width="20%">
+          <col width="20%">
+        </colgroup>
+        <thead class="u-palette-4-base u-table-header u-table-header-1">
+          <tr style="height: 117px;">
+            <th class="u-border-1 u-border-palette-4-base u-table-cell">Fecha</th>
+            <th class="u-border-1 u-border-palette-4-base u-table-cell">Tratamiento&nbsp;</th>
+            <th class="u-border-1 u-border-palette-4-base u-table-cell">&nbsp;Avances</th>
+            <th class="u-border-1 u-border-palette-4-base u-table-cell">Observaciones&nbsp;&nbsp;</th>
+            <th class="u-border-1 u-border-palette-4-base u-table-cell">Secciones&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody class="u-table-body">
+          <tr style="height: 117px;">
+            <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-6">Row 1</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+          </tr>
+          <tr style="height: 117px;">
+            <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-11">Row 2</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+          </tr>
+          <tr style="height: 117px;">
+            <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-16">Row 3</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+          </tr>
+          <tr style="height: 117px;">
+            <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-21">Row 4</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+            <td class="u-border-1 u-border-grey-30 u-table-cell">Descripción</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-
-    <!-- Footer Start -->
-    <!-- Agrega tu código para el pie de página aquí -->
+  </div>
     <!-- Footer Start -->
 <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
     <div class="row pt-5">
@@ -226,7 +240,5 @@
         </div>
     </div>
 </div>
-<!-- Footer End -->
-<!-- Footer End -->
 </body>
 </html>

@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
     
-    // Dropdown on mouse hover
+    // Menu mouse
     $(document).ready(function () {
         function toggleNavbarMethod() {
             if ($(window).width() > 992) {
@@ -19,7 +19,7 @@
     });
     
     
-    // Back to top button
+    // Boton inicio
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
@@ -33,7 +33,7 @@
     });
 
 
-    // Date and time picker
+    // Selector de fecha y hora
     $('.date').datetimepicker({
         format: 'L'
     });
@@ -42,7 +42,7 @@
     });
 
 
-    // Testimonials carousel
+    // Comentarios carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1500,

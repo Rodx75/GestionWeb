@@ -29,7 +29,7 @@ html, body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("/Users/DOKI/Desktop/NutFM/img/carousel-1.webp");/*Reemplaza con la ruta de tu imagen */
+  background-image: url('/Users/User/Desktop/NutFM/img/logFd.jpg');/*Reemplaza con la ruta de tu imagen */
   background-size: cover;
   filter: blur(10px); /* Ajusta el valor para controlar el desenfoque */
 }
@@ -52,7 +52,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 500px;
-  background-image: url("https://images.unsplash.com/photo-1604342427523-189b17048839?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80");
+  background-image: url("https://photo-1604342427523-189b17048839?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80");
 }
 .form-structor .signup {
   position: absolute;
